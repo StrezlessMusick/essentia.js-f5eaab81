@@ -1,4 +1,4 @@
-FROM node:14.18.1 as fe-builder
+FROM node:14.21.3 as fe-builder
 
 WORKDIR /usr/src/app
 COPY views/package.json .
@@ -7,7 +7,7 @@ RUN npm install
 COPY views/ .
 RUN npm run build
 
-FROM node:14.18.1
+FROM node:14.21.3
 
 RUN apt-get -y update && \
     apt-get install -y ffmpeg && \
