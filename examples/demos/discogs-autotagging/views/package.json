@@ -17,7 +17,7 @@
     "seedrandom": "^3.0.5",
     "tiny-emitter": "^2.1.0",
     "uuid": "^8.3.2",
-    "vue": "^3.2.16"
+    "vue": "^3.3.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.3",
